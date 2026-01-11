@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Alex Morgan | Elite Penetration Tester</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+  <!-- Loading Terminal -->
+  <div class="terminal-loader">
+    <div class="terminal-header">
+      <span></span><span></span><span></span>
+    </div>
+    <div class="terminal-body">
+      <div class="line">> Initializing security protocols...</div>
+      <div class="line">> Scanning for vulnerabilities...</div>
+      <div class="line blink">> Access granted. Welcome, Alex.</div>
+    </div>
+  </div>
+
+  <!-- Cursor Trail -->
+  <div class="cursor-trail"></div>
+
+  <!-- Main Content -->
+  <main id="main-content">
+    <!-- Hero -->
+    <section class="hero" id="home">
+      <div class="hero-bg"></div>
+      <div class="hero-content">
+        <h1 class="name glitch" data-text="ALEX MORGAN">ALEX MORGAN</h1>
+        <p class="tagline">Senior Penetration Tester • Bug Bounty Hunter • Ethical Hacker</p>
+        <div class="cta-buttons">
+          <a href="#projects" class="btn primary">View Exploits</a>
+          <a href="#contact" class="btn secondary">Secure Contact</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="about" id="about">
+      <div class="container">
+        <h2 class="section-title">About My Mission</h2>
+        <div class="about-grid">
+          <div class="bio">
+            <p>I break systems to make them unbreakable. With 8+ years in offensive security, I specialize in finding zero-day vulnerabilities before adversaries do.</p>
+            <p>Certified OSCP, OSCE, and top 1% HackerOne researcher with $500k+ in bounties.</p>
+          </div>
+          <div class="terminal-card">
+            <div class="terminal-bar">
+              <div class="dot red"></div>
+              <div class="dot yellow"></div>
+              <div class="dot green"></div>
+            </div>
+            <div class="terminal-content">
+              <p>> Current Focus:</p>
+              <p class="highlight">- Cloud Infrastructure Pentesting</p>
+              <p class="highlight">- Web3 & Smart Contract Audits</p>
+              <p class="highlight">- Red Team Operations</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="skills" id="skills">
+      <div class="container">
+        <h2 class="section-title">Exploit Arsenal</h2>
+        <div class="skills-container">
+          <div class="skill-category">
+            <h3>Offensive Tools</h3>
+            <div class="tools-list">
+              <span class="tool">Metasploit</span>
+              <span class="tool">Burp Suite Pro</span>
+              <span class="tool">Nmap</span>
+              <span class="tool">SQLMap</span>
+              <span class="tool">Cobalt Strike</span>
+            </div>
+          </div>
+          <div class="skill-category">
+            <h3>Languages</h3>
+            <div class="progress-bars">
+              <div class="progress-item">
+                <span>Python</span>
+                <div class="bar"><div class="fill" style="width: 95%"></div></div>
+              </div>
+              <div class="progress-item">
+                <span>Bash/Shell</span>
+                <div class="bar"><div class="fill" style="width: 90%"></div></div>
+              </div>
+              <div class="progress-item">
+                <span>JavaScript</span>
+                <div class="bar"><div class="fill" style="width: 85%"></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="projects" id="projects">
+      <div class="container">
+        <h2 class="section-title">Critical Vulnerabilities Discovered</h2>
+        <div class="projects-grid">
+          <div class="project-card">
+            <div class="scan-line"></div>
+            <h3>Banking App RCE</h3>
+            <p>Remote Code Execution in Fortune 500 banking app → $150,000 bounty</p>
+            <div class="tech-tags">
+              <span>OWASP Top 10</span>
+              <span>API Security</span>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="scan-line"></div>
+            <h3>Govt Portal Auth Bypass</h3>
+            <p>Privilege escalation in national ID system → CVE-2025-XXXXX</p>
+            <div class="tech-tags">
+              <span>OAuth Flaw</span>
+              <span>JWT Tampering</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact" id="contact">
+      <div class="container">
+        <h2 class="section-title">Initiate Secure Channel</h2>
+        <div class="contact-grid">
+          <div class="contact-info">
+            <div class="info-item">
+              <i class="fas fa-envelope"></i>
+              <span>alex@cybersec.expert</span>
+            </div>
+            <div class="info-item">
+              <i class="fab fa-hacker-news"></i>
+              <span>HackerOne: alex_morgan</span>
+            </div>
+          </div>
+          <form class="contact-form">
+            <input type="text" placeholder="Your Name" required />
+            <input type="email" placeholder="Your Email" required />
+            <textarea placeholder="Describe your target..." required></textarea>
+            <button type="submit" class="btn primary">Send Encrypted Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <p>© 2026 Alex Morgan. All systems secured.</p>
+        <div class="socials">
+          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="#"><i class="fab fa-hacker-news"></i></a>
+        </div>
+      </div>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
